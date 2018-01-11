@@ -1144,12 +1144,23 @@ header {
 .pagecontentmaster {
   width: 100%;
   background-color: white;
+  height: 900px;
+  margin-bottom: 20em;
+}
+
+.pagecontentmaster1 {
+  width: 100%;
+  background-color: white;
   height: 700px;
 }
 
 .socialpagesmaster {
   width: 100%;
   margin-top: 36em;
+  padding-bottom: 22em;
+  margin-bottom: 19em;
+  background-color: white;
+  padding-bottom: 2em;
 }
 
 .socialpagescontent {
@@ -1538,7 +1549,11 @@ header {
 
 .frontpagemediamaster {
   width: 100%;
-  margin-top: .2em;
+  margin-top: 0;
+  padding-top: .2em;
+  margin-bottom: 15em;
+  padding-bottom: 10em;
+  background-color: white;
 }
 
 .frontpagemediacontent {
@@ -1568,6 +1583,13 @@ header {
   margin-top: 0em;
 }
 
-
+footer {
+  position: fixed;
+  bottom: 0;
+  z-index: -5;
+  height: 300px;
+  width: 100%;
+  background-color: #ebebeb;
+}
 
 } /* LUKKER MEDIA Q */
