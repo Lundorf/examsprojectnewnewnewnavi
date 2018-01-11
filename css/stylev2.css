@@ -454,16 +454,28 @@ header {
   display: flex;
   max-width: 100%;
   flex-direction: column;
+  height: 400px;
 }
 
-.socialpagesitem {
-  width: 500px;
-  height: 300px;
+.socialpagesitem1 {
+  width: 340px;
+  height: 340px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
   display: flex;
   max-width: 100%;
+  margin-top: -40em;
+}
+.socialpagesitem2 {
+  width: 340px;
+  height: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: flex;
+  max-width: 100%;
+  margin-top: 10em;
 }
 
 
@@ -1133,7 +1145,7 @@ header {
 
 .socialpagesmaster {
   width: 100%;
-  margin-top: 2.2em;
+  margin-top: 36em;
 }
 
 .socialpagescontent {
@@ -1144,8 +1156,17 @@ header {
   max-width: 100%;
 }
 
-.socialpagesitem {
-  width: 500px;
+.socialpagesitem1 {
+  width: 340px;
+  height: 450px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-flex;
+  position: relative;
+  max-width: 50%;
+}
+.socialpagesitem2 {
+  width: 340px;
   height: 450px;
   margin-left: 5px;
   margin-right: 5px;
@@ -1537,6 +1558,10 @@ header {
   display: inline-block;
   margin-left: 6px;
   overflow: hidden;
+}
+
+.socialpagesmaster {
+  margin-top: 0em;
 }
 
 
