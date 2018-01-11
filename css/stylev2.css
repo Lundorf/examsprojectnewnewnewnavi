@@ -49,9 +49,10 @@ font-family: 'Muli', sans-serif;
 
 .frontpagemediamaster {
   margin: auto;
-  margin-top: 43em;
-  width: 90%;
+  padding-top: 43em;
+  width: 100%;
   max-width: 100%;
+  background-color: white;
 }
 
 .frontpagemediacontent {
@@ -86,6 +87,127 @@ background: white;
 position: relative;
 padding: 0;
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  z-index: -5;
+  height: 300px;
+  width: 100%;
+  background-color: #ebebeb;
+  text-align: center;
+}
+
+footer > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 2em;
+  justify-content: space-around;
+  padding-top: 2em;
+}
+
+footer > div > div {
+ margin-left: 0.5em;
+ margin-right: 0.5em;
+}
+
+footer > div > div > h1 {
+  padding-bottom: 1em;
+  margin-bottom: 1.2em;
+  font-size: 0.9em;
+  border-bottom: 1px solid #c1c1c1;
+}
+
+footer > div > div > p {
+  line-height: 1.5em;
+  font-size: 0.9em;
+}
+
+.footerinfo1 {
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+  height: 300px;
+  width: 100%;
+  background-color: #ebebeb;
+  text-align: center;
+}
+
+.footerinfo1 > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 2em;
+  justify-content: space-around;
+  padding-top: 2em;
+}
+
+.footerinfo1 > div > div {
+ margin-left: 0.5em;
+ margin-right: 0.5em;
+}
+
+.footerinfo1 > div > div > h1 {
+  padding-bottom: 1em;
+  margin-bottom: 1.2em;
+  font-size: 0.9em;
+  border-bottom: 1px solid #c1c1c1;
+}
+
+.footerinfo1 > div > div > p {
+  line-height: 1.5em;
+  font-size: 0.9em;
+}
+
+
+/*styler kontakt os icon til sociale medier*/
+.fa {
+    padding: 15px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/*hover effekt pÃ¥ social media icons*/
+.fa:hover {
+    opacity: 0.7;
+}
+
+/*styler kontakt os icon til sociale medier*/
+
+.fa-facebook {
+    background: #a1a1a1;
+    color: white;
+
+}
+
+
+/*styler kontakt os icon til sociale medier*/
+.fa-instagram {
+    background: #a1a1a1;
+    color: white;
+}
+
+.footerh1 {
+  width: 300px;
+}
+
+.gallerimaster {
+  margin-bottom: 42em;
+}
+
+.frontpagemediamaster {
+  margin-bottom: 20em;
+}
+
+.pagecontentmaster {
+  margin-bottom: 24em;
+}
+
 
 @media screen and (max-width: 742px) {
 
@@ -226,6 +348,7 @@ header {
   height: 431px;
   z-index: 3;
   max-width: 100%;
+  margin-bottom: 40em;
 }
 
 .toprow {
@@ -338,7 +461,6 @@ header {
 
 .gallerimaster {
   width: 1000px;
-  height: 370px;
   margin: auto;
   max-width: 90%;
   margin-top: 35px;
@@ -444,8 +566,9 @@ header {
 .socialpagesmaster {
   width: 100%;
   margin: auto;
-  margin-top: 45em;
-  max-width: 95%;
+  padding-top: 45em;
+  max-width: 100%;
+  background-color: white;
 }
 
 .socialpagescontent {
@@ -455,6 +578,7 @@ header {
   max-width: 100%;
   flex-direction: column;
   height: 400px;
+  margin-bottom: 18em;
 }
 
 .socialpagesitem1 {
@@ -631,6 +755,7 @@ button {
 .pagecontenttext {
   width: 100%;
   margin-top: 10em;
+  padding-bottom: 3em;
 }
 
 
@@ -925,6 +1050,7 @@ header {
   height: 431px;
   z-index: 3;
   max-width: 100%;
+  margin-bottom: 40em;
 }
 
 .toprow {
@@ -1040,7 +1166,6 @@ header {
 
 .gallerimaster {
   width: 1000px;
-  height: 370px;
   margin: auto;
   max-width: 90%;
 }
@@ -1152,6 +1277,10 @@ header {
   width: 100%;
   background-color: white;
   height: 700px;
+}
+
+.pagecontent {
+  margin-bottom: 24em;
 }
 
 .socialpagesmaster {
@@ -1311,6 +1440,7 @@ header {
   height: 431px;
   z-index: 3;
   max-width: 100%;
+  margin-bottom: 20em;
 }
 
 .toprow {
@@ -1426,7 +1556,6 @@ header {
 
 .gallerimaster {
   width: 1000px;
-  height: 370px;
   margin: auto;
   max-width: 90%;
   margin-top: -20px;
@@ -1590,6 +1719,114 @@ footer {
   height: 300px;
   width: 100%;
   background-color: #ebebeb;
+  text-align: center;
 }
+
+footer > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 2em;
+  justify-content: space-around;
+  padding-top: 2em;
+}
+
+footer > div > div {
+ margin-left: 0.5em;
+ margin-right: 0.5em;
+}
+
+footer > div > div > h1 {
+  padding-bottom: 1em;
+  margin-bottom: 1.2em;
+  font-size: 0.9em;
+  border-bottom: 1px solid #c1c1c1;
+}
+
+footer > div > div > p {
+  line-height: 1.5em;
+  font-size: 0.9em;
+}
+
+.footerinfo1 {
+  position: fixed;
+  bottom: 0;
+  z-index: 5;
+  height: 300px;
+  width: 100%;
+  background-color: #ebebeb;
+  text-align: center;
+}
+
+.footerinfo1 > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 2em;
+  justify-content: space-around;
+  padding-top: 2em;
+}
+
+.footerinfo1 > div > div {
+ margin-left: 0.5em;
+ margin-right: 0.5em;
+}
+
+.footerinfo1 > div > div > h1 {
+  padding-bottom: 1em;
+  margin-bottom: 1.2em;
+  font-size: 0.9em;
+  border-bottom: 1px solid #c1c1c1;
+}
+
+.footerinfo1 > div > div > p {
+  line-height: 1.5em;
+  font-size: 0.9em;
+}
+
+
+/*styler kontakt os icon til sociale medier*/
+.fa {
+    padding: 15px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/*hover effekt pÃ¥ social media icons*/
+.fa:hover {
+    opacity: 0.7;
+}
+
+/*styler kontakt os icon til sociale medier*/
+
+.fa-facebook {
+    background: #a1a1a1;
+    color: white;
+
+}
+
+
+/*styler kontakt os icon til sociale medier*/
+.fa-instagram {
+    background: #a1a1a1;
+    color: white;
+}
+
+.footerh1 {
+  width: 300px;
+}
+
+.gallerimaster {
+  margin-bottom: 25em;
+}
+
+.frontpagemediamaster {
+  margin-bottom: 20em;
+}
+
 
 } /* LUKKER MEDIA Q */
