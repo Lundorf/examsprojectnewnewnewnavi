@@ -559,6 +559,10 @@ button {
     background-color: #ebebeb;
 }
 
+.toppageimg {
+  height: 260px;
+}
+
 .toppageimgtext {
   position: absolute;
   width: 100%;
