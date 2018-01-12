@@ -56,7 +56,7 @@ font-family: 'Muli', sans-serif;
 }
 
 .frontpagemediacontent {
-  width: 1000px;
+  width: 90%;
   margin: auto;
   overflow: hidden;
   max-width: 100%;
@@ -197,7 +197,11 @@ footer > div > div > p {
 }
 
 .gallerimaster {
-  margin-bottom: 42em;
+  background-color: #ebebeb;
+  padding-bottom: 5em;
+  margin-bottom: 18em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .frontpagemediamaster {
@@ -206,6 +210,70 @@ footer > div > div > p {
 
 .pagecontentmaster {
   margin-bottom: 24em;
+}
+
+
+.kontaktmaster {
+  width: 100%;
+  max-width: 100%;
+  background-color: #ebebeb;
+}
+
+.kontaktmaster1 {
+  width: 100%;
+  max-width: 100%;
+  background-color: #ebebeb;
+  margin-bottom: 18em;
+  padding-bottom: 5em;
+}
+
+.kontaktcontent {
+  width: 1100px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  flex-direction: column;
+  background-color: #ebebeb;
+}
+
+.kontaktitem {
+  margin-top: 1em;
+  width: 220px;
+  height: 280px;
+  display: inline-block;
+  padding: 0;
+  position: relative;
+  background-color: white;
+  overflow: hidden;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 10px;
+  z-index: 10;
+  border-radius: 0.2em;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.kontaktitem > img {
+  width: 100%;
+  z-index: 3;
+}
+
+.kontaktitemtekst {
+  position: absolute;
+  bottom: 0;
+  height: 70px;
+  width: 100%;
+  background-color: white;
+  padding-top: 4px;
+}
+
+.kontaktitemtekst > p {
+  line-height: 1.2;
+  margin: 0;
+  font-size: 0.9em;
 }
 
 
@@ -330,6 +398,7 @@ header {
   overflow: hidden;
   padding-top: 0;
   max-width: 100%;
+  background-color: #ebebeb;
 }
 
 .pagenavpic1 > img {
@@ -461,8 +530,7 @@ header {
 
 .gallerimaster {
   width: 1000px;
-  margin: auto;
-  max-width: 90%;
+  max-width: 100%;
   margin-top: 35px;
 }
 
@@ -914,6 +982,68 @@ button {
   display: inline-block;
 }
 
+.kontaktmaster {
+  width: 100%;
+  max-width: 100%;
+  background-color: #ebebeb;
+  margin-top: 2em;
+}
+
+.kontaktmaster1 {
+  margin-top: 2em;
+  padding-bottom: 5em;
+  margin-bottom: 23em;
+  z-index: 10;
+  background-color: #ebebeb;
+}
+
+.kontaktcontent {
+  width: 1100px;
+  height: 280px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  flex-direction: row;
+}
+
+.kontaktitem {
+  width: 200px;
+  height: 280px;
+  display: inline-block;
+  padding: 0;
+  position: relative;
+  background-color: white;
+  overflow: hidden;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 10px;
+  z-index: 10;
+  border-radius: 0.2em;
+  margin-left: 5px;
+  margin-right: 5px;
+  }
+
+.kontaktitem > img {
+  width: 100%;
+  z-index: 3;
+}
+
+.kontaktitemtekst {
+  position: absolute;
+  bottom: 0;
+  height: 70px;
+  width: 100%;
+  background-color: white;
+  padding-top: 4px;
+}
+
+.kontaktitemtekst > p {
+  line-height: 1.2;
+  margin: 0;
+  font-size: 0.9em;
+}
+
 }
 
 
@@ -1166,8 +1296,8 @@ header {
 
 .gallerimaster {
   width: 1000px;
-  margin: auto;
   max-width: 90%;
+  margin-bottom: 19em;
 }
 
 .gallericontent {
@@ -1345,10 +1475,32 @@ header {
   margin-top: 1em;
   width: 99%;
   max-width: 100%;
+  padding-top: 0;
 }
 
 .frontpagemediaitem1 {
   height: 440px;
+}
+
+.kontaktcontent {
+  height: 380px;
+}
+
+.kontaktitem {
+  width: 300px;
+  height: 380px;
+  margin-left: 5px;
+  margin-right: 5px;
+  }
+
+.kontaktitem > img {
+  width: 120%;
+}
+
+.kontaktmaster1 {
+  padding-bottom: 5em;
+  margin-bottom: 18em;
+
 }
 
 } /* LUKKER MEDIA Q */
@@ -1357,7 +1509,9 @@ header {
 /* DESKTOP VERSION */
 @media screen and (min-width: 830px) {
 
-
+  .kontaktitem > img {
+    width: 100%;
+  }
 
 header {
   width: 100%;
@@ -1556,7 +1710,6 @@ header {
 
 .gallerimaster {
   width: 1000px;
-  margin: auto;
   max-width: 90%;
   margin-top: -20px;
 }
@@ -1687,9 +1840,6 @@ header {
 
 .frontpagemediacontent {
   width: 1000px;
-  margin: auto;
-  overflow: hidden;
-  max-width: 100%;
 }
 
 .frontpagemediaitem1 {
@@ -1752,7 +1902,7 @@ footer > div > div > p {
 .footerinfo1 {
   position: fixed;
   bottom: 0;
-  z-index: 5;
+  z-index: 2;
   height: 300px;
   width: 100%;
   background-color: #ebebeb;
@@ -1821,12 +1971,15 @@ footer > div > div > p {
 }
 
 .gallerimaster {
-  margin-bottom: 25em;
+
 }
 
 .frontpagemediamaster {
   margin-bottom: 20em;
 }
+
+
+
 
 
 } /* LUKKER MEDIA Q */
