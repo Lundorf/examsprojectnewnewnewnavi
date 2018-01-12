@@ -259,6 +259,7 @@ footer > div > div > p {
 .kontaktitem > img {
   width: 100%;
   z-index: 3;
+  border-radius: 0.2em;
 }
 
 .kontaktitemtekst {
@@ -1301,8 +1302,8 @@ header {
 
 .gallerimaster {
   width: 1000px;
-  max-width: 90%;
-  margin-bottom: 19em;
+  max-width: 100%;
+  margin-bottom: 20em;
 }
 
 .gallericontent {
@@ -1420,7 +1421,7 @@ header {
 
 .socialpagesmaster {
   width: 100%;
-  margin-top: 36em;
+  padding-top: 36em;
   padding-bottom: 22em;
   margin-bottom: 19em;
   background-color: white;
@@ -1714,8 +1715,9 @@ header {
 
 .gallerimaster {
   width: 1000px;
-  max-width: 90%;
+  max-width: 100%;
   margin-top: -20px;
+  margin-bottom: 20em;
 }
 
 .gallericontent {
@@ -1863,7 +1865,7 @@ header {
 }
 
 .socialpagesmaster {
-  margin-top: 0em;
+  padding-top: 0em;
 }
 
 footer {
