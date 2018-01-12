@@ -281,6 +281,13 @@ footer > div > div > p {
   background-color: white;
 }
 
+.lowestp0 {
+  margin-bottom: 0;
+}
+
+.pagecontent {
+  padding-bottom: 1em;
+}
 
 @media screen and (max-width: 742px) {
 
